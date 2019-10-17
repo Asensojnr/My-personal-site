@@ -4,7 +4,8 @@ import './App.css';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div >
+
         <div className="navbar has-background-black">
           <div className="navbar-brand">
             <div className="navbar-item">
@@ -13,16 +14,16 @@ class App extends React.Component {
           </div>
           <div className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item" href="http://github/asensojr">Home</a>
-              <a className="navbar-item" href="http://github/asensojr">Skills</a>
+              <a className="navbar-item" href="#home">Home</a>
+              <a className="navbar-item" href="#skills">Skills</a>
               <a className="navbar-item" href="#title1">Tools</a>
-              <a className="navbar-item" href="http://github/asensojr">Project</a>
+              <a className="navbar-item" href="#project">Project</a>
             </div>
           </div>
           <div className="navbar-menu">
             <div className="navbar-end">
               <div className="navbar-item">
-                <a href="https://github.com/Asensojnr" target="_blank" rel="nooperner noreferrer" alt="git">
+                <a href="https://github.com/Asensojnr" target="_blank" rel="noopener noreferrer" alt="git">
                   <img src="https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg" alt="ki" /></a>
               </div>
             </div>
@@ -32,8 +33,8 @@ class App extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns">
-              <div className="column">
-                <p className="title padding-y-3 is-size-1">
+              <div className="column full-height padding-y-3" data-aos="fade-in" >
+                <p id="home" className="title padding-y-3 is-size-1">
                   Hey there!
                   <br />Welcome to the codeworld!
             </p>
@@ -47,8 +48,8 @@ class App extends React.Component {
             </div>
 
             <div className="columns">
-              <div className="column">
-                <p className="title">SKILLS</p>
+              <div className="column full-height" data-aos="fade-in">
+                <p id="skills" className="title">SKILLS</p>
                 <p className="subtitle">Web development  &nbsp;App Development &nbsp; Graphics Design&nbsp; </p>
                 <p className="subtitle">Music Production  &nbsp;Video Editing &nbsp; Software & Hardware&nbsp; </p>
               </div>
@@ -56,7 +57,7 @@ class App extends React.Component {
 
 
             <div className="columns">
-              <div className="column padding-y-3">
+              <div className="column padding-y-3 " data-aos="fade-in">
                 <p id="title1" className="title ">TOOLS</p>
                 <p className="subtitle">Java script &nbsp;React js &nbsp; HTml </p>
                 <p className="subtitle">FL studio &nbsp;PhotoShop &nbsp; Premier pro </p>
@@ -64,6 +65,12 @@ class App extends React.Component {
               </div>
               <div className="column">
                 <img src="https://i.ibb.co/7XqTQ2M/hgjk.png" alt="g d" />
+              </div>
+            </div>
+
+            <div className="columns">
+              <div className="column">
+                <p id="project" className="title">PROJECT</p>
               </div>
             </div>
           </div>
