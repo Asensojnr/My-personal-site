@@ -29,53 +29,76 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-
-        <section className="section">
-          <div className="container">
-            <div className="columns">
-              <div className="column full-height padding-y-3" data-aos="fade-in" >
-                <p id="home" className="title padding-y-3 is-size-1">
-                  Hey there!
+        <section className="section full-height" data-aos="fade-in" >
+          <div className="columns">
+            <div className="column">
+              <p id="home" className="title padding-y-3 is-size-1">
+                Hey there!
                   <br />Welcome to the codeworld!
             </p>
-                <p className="subtitle ">
-                  Hi, i'm Asenso a web and app developer.
+              <p className="subtitle ">
+                Hi, i'm Asenso a web and app developer.
+
             </p>
-              </div>
-              <div className="column">
-                <img src="https://i.ibb.co/Jkshvkg/web-2389250-1280.jpg" alt="web" />
-              </div>
+              <p className="subtitle">Platform</p>
+              <img src="" alt="" />
             </div>
-
-            <div className="columns">
-              <div className="column full-height" data-aos="fade-in">
-                <p id="skills" className="title">SKILLS</p>
-                <p className="subtitle">Web development  &nbsp;App Development &nbsp; Graphics Design&nbsp; </p>
-                <p className="subtitle">Music Production  &nbsp;Video Editing &nbsp; Software & Hardware&nbsp; </p>
-              </div>
-            </div>
-
-
-            <div className="columns">
-              <div className="column padding-y-3 " data-aos="fade-in">
-                <p id="title1" className="title ">TOOLS</p>
-                <p className="subtitle">Java script &nbsp;React js &nbsp; HTml </p>
-                <p className="subtitle">FL studio &nbsp;PhotoShop &nbsp; Premier pro </p>
-                <p className="subtitle">After Effect &nbsp;Blender &nbsp;  </p>
-              </div>
-              <div className="column">
-                <img src="https://i.ibb.co/7XqTQ2M/hgjk.png" alt="g d" />
-              </div>
-            </div>
-
-            <div className="columns">
-              <div className="column">
-                <p id="project" className="title">PROJECT</p>
-              </div>
+            <div className="column padding-y-3">
+              <img src="https://i.ibb.co/Jkshvkg/web-2389250-1280.jpg" alt="web" />
             </div>
           </div>
         </section>
+
+        <section className="section full-height" data-aos="fade-in">
+          <div className="columns">
+            <div className="column padding-y-3  " >
+              <p id="skills" className="title">SKILLS</p>
+              <p className="subtitle">Web development  &nbsp;App Development &nbsp; Graphics Design&nbsp; </p>
+              <p className="subtitle">Music Production  &nbsp;Video Editing &nbsp; Software & Hardware&nbsp; </p>
+            </div>
+          </div>
+        </section>
+
+
+        <section className="section">
+          <div className="columns">
+            <div className="column padding-y-3 " data-aos="fade-in">
+              <p id="title1" className="title ">TOOLS</p>
+              <p className="subtitle">Java script &nbsp;React js &nbsp; HTml </p>
+              <p className="subtitle">FL studio &nbsp;PhotoShop &nbsp; Premier pro </p>
+              <p className="subtitle">After Effect &nbsp;Blender &nbsp;  </p>
+            </div>
+            <div className="column">
+              <img src="https://i.ibb.co/7XqTQ2M/hgjk.png" alt="g d" />
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="columns padding-y-3">
+            <div className="column">
+              <p id="project" className="title">PROJECT</p>
+              <div class="tags has-addons">
+                <span class="tag">Basic</span>
+                <span class="tag is-primary">Form</span>
+              </div>
+              <div class="tags has-addons">
+                <span class="tag">Basic</span>
+                <span class="tag is-primary">Calculator</span>
+              </div>
+              <div class="tags has-addons">
+                <span class="tag">Simple</span>
+                <span class="tag is-primary">Listing</span>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+
       </div>
+
     )
 
   }
